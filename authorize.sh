@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Otwiera w przegladarce ekran zgody OLX.
+# Otwiera w przeglądarce ekran zgody OLX.
 set -euo pipefail
 set -a; source .env; set +a
 SCOPE="${1:-read}"
